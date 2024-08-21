@@ -75,8 +75,8 @@ echo "-----------------------------"
 
 pacstrap /mnt base base-devel --noconfirm --needed
 
-# Zen Kernel
-pacstrap /mnt linux-zen linux-zen-firmware --noconfirm needed
+# Kernel
+pacstrap /mnt linux linux-firmware --noconfirm needed
 
 
 echo "--------------------------"
